@@ -1,0 +1,1078 @@
+{
+  "deliveries": [
+    {
+      "delivery_id": "d-01",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "items": [
+          {
+            "Level": "Request",
+            "AuditID": "793e7ae2-5ca7-4ad3-a632-19708d2f8265",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.528703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "2c9a5f41-0a3d-4a1f-9c77-6b1d0e2a9f30",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/",
+            "Verb": "list",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:44.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:44.028703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "5d3b7c88-2f14-4b6e-8a02-1c4d5e6f7a81",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/",
+            "Verb": "list",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:45.228703Z",
+            "StageTimestamp": "2019-01-11T06:51:45.228703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "9a4c1e20-3b5d-4f7a-8c19-2e3f4a5b6c70",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/secrets/my-secret",
+            "Verb": "get",
+            "User": {
+              "Username": "kubernetes-admin",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "secrets",
+              "Namespace": "default",
+              "Name": "my-secret",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:45.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:45.528703Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-02",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "items": [
+          {
+            "Level": "Request",
+            "AuditID": "b6f12d33-4c6e-4a8b-9d20-3f4a5b6c7d81",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "delete",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:47.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:47.028703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "5bab8618-2d58-4f8a-a30e-cc1a69724f11",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/statefulsets/rt-test-sf-e00e6-0",
+            "Verb": "patch",
+            "User": {
+              "Username": "kubernetes-admin",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "statefulsets",
+              "Namespace": "default",
+              "Name": "rt-test-sf-e00e6-0",
+              "UID": "",
+              "APIGroup": "apps",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:46.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:46.528703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "c7e2a455-5d7f-4b9c-8e31-4a5b6c7d8e92",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.028703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "d8f3b566-6e80-4cad-9f42-5b6c7d8e9fa3",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.228703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.228703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "e904c677-7f91-4dbe-a053-6c7d8e9fa0b4",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/",
+            "Verb": "list",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:45.228703Z",
+            "StageTimestamp": "2019-01-11T06:51:45.301029Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-03",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "items": [
+          {
+            "Level": "Request",
+            "AuditID": "b6f12d33-4c6e-4a8b-9d20-3f4a5b6c7d81",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "delete",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:47.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:47.028703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "5bab8618-2d58-4f8a-a30e-cc1a69724f11",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/statefulsets/rt-test-sf-e00e6-0",
+            "Verb": "patch",
+            "User": {
+              "Username": "kubernetes-admin",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "statefulsets",
+              "Namespace": "default",
+              "Name": "rt-test-sf-e00e6-0",
+              "UID": "",
+              "APIGroup": "apps",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:46.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:46.528703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "c7e2a455-5d7f-4b9c-8e31-4a5b6c7d8e92",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.028703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "d8f3b566-6e80-4cad-9f42-5b6c7d8e9fa3",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.228703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.228703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "e904c677-7f91-4dbe-a053-6c7d8e9fa0b4",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/",
+            "Verb": "list",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:45.228703Z",
+            "StageTimestamp": "2019-01-11T06:51:45.301029Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-04",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "Items": [
+          {
+            "Level": "Request",
+            "AuditID": "793e7ae2-5ca7-4ad3-a632-19708d2f8265",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.528703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "8b6cd79a-9ffe-4da6-b752-aa3d415755ae",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:52:05.618821Z",
+            "StageTimestamp": "2019-01-11T06:52:05.618821Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-05",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "items": [
+          {
+            "Level": "Request",
+            "AuditID": "1f0a4d2e-8a02-4ecf-b164-7d8e9fa0b1c5",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:52:27.708939Z",
+            "StageTimestamp": "2019-01-11T06:52:27.708939Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "a1b2c3d4-9b13-4fd0-c275-8e9fa0b1c2d6",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:52:27.708939Z",
+            "StageTimestamp": "2019-01-11T06:52:27.901222Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "f2e3d4c5-ac24-4ae1-d386-9fa0b1c2d3e7",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/statefulsets/rt-test-sf-e00e6-0",
+            "Verb": "patch",
+            "User": {
+              "Username": "kubernetes-admin",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "statefulsets",
+              "Namespace": "default",
+              "Name": "rt-test-sf-e00e6-0",
+              "UID": "",
+              "APIGroup": "apps",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:52:16.528703Z",
+            "StageTimestamp": "2019-01-11T06:52:16.528703Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-06",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "items": [
+          {
+            "Level": "Request",
+            "AuditID": "793e7ae2-5ca7-4ad3-a632-19708d2f8265",
+            "Stage": "ResponseComplete",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.616529Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "b6f12d33-4c6e-4a8b-9d20-3f4a5b6c7d81",
+            "Stage": "ResponseComplete",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "delete",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:47.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:47.116529Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "1f0a4d2e-8a02-4ecf-b164-7d8e9fa0b1c5",
+            "Stage": "ResponseComplete",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:52:27.708939Z",
+            "StageTimestamp": "2019-01-11T06:52:27.796940Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-07",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "Items": [
+          {
+            "Level": "Request",
+            "AuditID": "793e7ae2-5ca7-4ad3-a632-19708d2f8265",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/test-pre-sf-de7cc-0",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "test-pre-sf-de7cc-0",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:43.528703Z",
+            "StageTimestamp": "2019-01-11T06:51:43.528703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "8b6cd79a-9ffe-4da6-b752-aa3d415755ae",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/gstop1-sf-1f2db-1",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "gstop1-sf-1f2db-1",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:52:05.618821Z",
+            "StageTimestamp": "2019-01-11T06:52:05.618821Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-08",
+      "event_list": {
+        "kind": "EventList",
+        "apiVersion": "audit.k8s.io/v1beta1",
+        "items": [
+          {
+            "Level": "Request",
+            "AuditID": "",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/no-audit-id",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "no-audit-id",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:48.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:48.028703Z",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "3aa1b2c3-1122-4333-8444-555566667777",
+            "Stage": "RequestReceived",
+            "RequestURI": "/api/v1/namespaces/default/pods/bad-ts",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "bad-ts",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11 06:51:48",
+            "StageTimestamp": "2019-01-11 06:51:48",
+            "Annotations": null
+          },
+          {
+            "Level": "Request",
+            "AuditID": "4bb1b2c3-1122-4333-8444-555566667778",
+            "Stage": "Completed",
+            "RequestURI": "/api/v1/namespaces/default/pods/bad-stage",
+            "Verb": "get",
+            "User": {
+              "Username": "system:unsecured",
+              "UID": "",
+              "Groups": [
+                "system:masters",
+                "system:authenticated"
+              ],
+              "Extra": null
+            },
+            "ImpersonatedUser": null,
+            "SourceIPs": [
+              "127.0.0.1"
+            ],
+            "UserAgent": "kube-scheduler/v1.12.2 (linux/amd64) kubernetes/73f3294/scheduler",
+            "ObjectRef": {
+              "Resource": "pods",
+              "Namespace": "default",
+              "Name": "bad-stage",
+              "UID": "",
+              "APIGroup": "",
+              "APIVersion": "v1",
+              "ResourceVersion": "",
+              "Subresource": ""
+            },
+            "ResponseStatus": null,
+            "RequestObject": null,
+            "ResponseObject": null,
+            "RequestReceivedTimestamp": "2019-01-11T06:51:49.028703Z",
+            "StageTimestamp": "2019-01-11T06:51:49.028703Z",
+            "Annotations": null
+          }
+        ]
+      }
+    },
+    {
+      "delivery_id": "d-09"
+    }
+  ]
+}
